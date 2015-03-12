@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>CitiesSkylinesModTemplate</Name>
+    <Description>A template for a basic Cities: Skylines Mod</Description>
+    <Icon>CitiesSkylinesModTemplate.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>2dd6a670-b773-45c2-ab71-1809da2ff43e</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>CitiesSkylinesMod</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">MyMod.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>CitiesSkylinesModWizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f77274f28f5bd3c2</Assembly>
+    <FullClassName>CitiesSkylinesModWizard.CitiesSkylinesModWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>

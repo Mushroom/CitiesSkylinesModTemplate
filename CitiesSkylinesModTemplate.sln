@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CitiesSkylinesModTemplate", "CitiesSkylinesModTemplate\CitiesSkylinesModTemplate.csproj", "{C54609BD-3E42-4863-8BB6-687620A5650D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CitiesSkylinesModWizard", "CitiesSkylinesModWizard\CitiesSkylinesModWizard.csproj", "{79A83F0E-24E0-4E4D-A0FA-753A23305BB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C54609BD-3E42-4863-8BB6-687620A5650D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C54609BD-3E42-4863-8BB6-687620A5650D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C54609BD-3E42-4863-8BB6-687620A5650D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C54609BD-3E42-4863-8BB6-687620A5650D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79A83F0E-24E0-4E4D-A0FA-753A23305BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79A83F0E-24E0-4E4D-A0FA-753A23305BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79A83F0E-24E0-4E4D-A0FA-753A23305BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79A83F0E-24E0-4E4D-A0FA-753A23305BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
